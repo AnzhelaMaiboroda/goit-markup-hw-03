@@ -287,6 +287,11 @@ a {
     height: 24px;
 }
 
+.logo-header-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .page-footer-title {
     line-height: 1.5;
     letter-spacing: 0.02em;
