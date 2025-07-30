@@ -29,7 +29,9 @@ a {
     margin: auto;
 }
 
-
+.images {
+    display: block;
+}
 
 /* header */
 
