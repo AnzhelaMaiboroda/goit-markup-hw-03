@@ -2,7 +2,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #fff;
-    width: 1440px;
+
 }
 
 ul,
@@ -127,9 +127,10 @@ a {
     text-align: center;
     color: #fff;
     align-items: center;
-    padding: 188px 0;
+
     max-width: 496px;
     margin: auto;
+    margin-bottom: 48px;
 }
 
 .hero-button {
@@ -181,7 +182,7 @@ a {
 }
 
 .feature-list-item {
-    width: 268px;
+    width: calc((100% - 72px) / 3);
 }
 
 .feature {
@@ -223,25 +224,31 @@ a {
 
 .team-list-item {
     background-color: #fff;
-    width: 342px;
+    width: calc((100% - 72px) / 3);
     border-radius: 0 0 4px 4px;
 }
 
 .team-list-neme {
     padding-top: 32px;
     padding-bottom: 32px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+
 }
 
 .team-feature-heading {
     text-align: center;
     margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .team-feature-title {
     text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* section four */
@@ -267,35 +274,37 @@ a {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
+
 }
 
 /* footer */
 
 .page-footer {
     background-color: #2e2f42;
-    width: 1440px;
-    height: 312px;
     padding: 100px 0px 100px;
 }
 
-.logo-header-logo .logo-part {
-    color: #f4f4fd;
-    display: inline-block;
-    margin-bottom: 16px;
-    display: inline-block;
-    width: 115px;
-    height: 24px;
+.logo-header-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 
-.logo-header-logo {
-    display: inline-block;
-    margin-bottom: 16px;
+.logo-part-header {
+    color: #f4f4fd;
+    font-family: "Raleway", sans-serif;
 }
 
 .page-footer-title {
+    font-weight: 400;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
+    padding-top: 16px;
 }
